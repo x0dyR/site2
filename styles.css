@@ -1,0 +1,340 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    width: 1366px;
+}
+
+.header {
+    display: flex;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    color: black;
+    padding: 26px 98px 98px 109px;
+}
+
+.themebau {
+    color: black;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.nav {
+    display: flex;
+}
+
+.home,
+.projects,
+.pages,
+.contact {
+    color: black;
+    text-align: right;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-right: 20px;
+}
+
+.social_header {
+    display: flex;
+    width: 1170px;
+    height: 38px;
+}
+
+.themebau {
+    margin: 0px 514px 8px 0px;
+
+}
+
+.container1 {
+    width: 1170px;
+    height: 426px;
+}
+
+.anaward {
+    color: #0E0E0E;
+    font-size: 70px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 80px;
+    word-wrap: break-word
+}
+
+.wow {
+    color: #0E0E0E;
+    font-size: 48px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 58px;
+    word-wrap: break-word;
+    font-family: 'Inter';
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+.digitalstud {
+    width: 610px;
+    height: 160px;
+    padding: 10px 378px 65px 378px;
+}
+
+.workbutton {
+    align-items: center;
+    width: 170px;
+    height: 54px;
+    background: black;
+    display: flex;
+    margin-left: 598px;
+}
+
+.textbutton {
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-left: 36px;
+}
+
+.circlediv {
+    margin-left: 20px;
+    background: white;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+}
+
+.line {
+    width: 1170px;
+    height: 1.2px;
+    color: #0E0E0E;
+    margin: 0px 98px 29px 98px;
+    background: #0E0E0E;
+
+}
+
+.container2 {
+    width: 1170px;
+    height: 1894px;
+}
+
+.allprojects {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    display: flex;
+    gap: 30px;
+    margin: 29px 410px 91px 409px
+}
+
+.creativebranding {
+    display: flex;
+    background: url(img/imagecreative.png);
+    background-repeat: no-repeat;
+}
+
+.creativetext {
+    margin: 165px 46px 215px 100px;
+    padding: 8px 26px 12px 26px;
+    display: flex;
+    width: 172px;
+    height: 30px;
+    background: black;
+    color: white;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    word-wrap: break-word
+}
+
+.creativetext p {
+    margin-left: 26px;
+}
+
+.more {
+    background: url(img/bgcirclemore.png);
+    width: 110px;
+    height: 110px;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    align-items: center;
+    color: #0E0E0E;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 500;
+    word-wrap: break-word;
+    justify-content: center;
+    margin: 100px 628px 154px 628px;
+}
+
+.connect {
+    margin: 0px 358px 50px 358px;
+    width: 648px;
+    height: 88px;
+}
+
+.sendus {
+    width: 648px;
+    height: 88px;
+}
+
+.douhave {
+    color: #0E0E0E;
+    font-size: 34px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 44px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.hand {
+    color: #0E0E0E;
+    font-size: 28px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 44px;
+    word-wrap: break-word
+}
+
+.workbutton2 {
+    align-items: center;
+    width: 170px;
+    height: 54px;
+    background: black;
+    display: flex;
+    margin-left: 239px;
+    margin-top: 50px;
+}
+
+.footer {
+    width: 1366px;
+    height: 642px;
+    background: #0E0E0E;
+    margin-top: 160px;
+    display: flex;
+}
+
+.left {
+    width: 497px;
+    border-right: #202020 1px solid;
+
+}
+
+.right {
+    width: 869px;
+    border-left: #202020 1px solid;
+}
+
+.pozhelanie {
+    width: 239px;
+    height: 152px;
+    padding-top: 121px;
+    padding-left: 98px;
+    padding-bottom: 76px;
+}
+
+.pozhelanie h1 {
+    color: white;
+    font-size: 34px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 44px;
+    word-wrap: break-word
+}
+
+.pozhelanie p {
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.contacts {
+    color: white;
+    font-size: 17px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word;
+    padding: 0px 221px 81px 98px;
+}
+
+.soc_icons {
+    padding-left: 98px;
+}
+
+.divinputemail {
+    display: flex;
+}
+
+.inputemail {
+    flex: 1;
+    color: white;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 19px;
+    word-wrap: break-word;
+    background: #0E0E0E;
+    border: none;
+    border-bottom: white 1px solid;
+    width: 570px;
+    padding-bottom: 17px;
+}
+
+.inputemail:focus,
+input:focus {
+    outline: none;
+}
+
+.newsub {
+    padding-top: 124px;
+    padding-left: 101px;
+    width: 570px;
+    height: 94px;
+}
+
+.buttonsend {
+    /* width: 38px; */
+    /* height: 26px; */
+    background-color: #0E0E0E;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 26px;
+    word-wrap: break-word;
+    display: flex;
+}
+
+.circlediv2 {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    background: white;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+}
