@@ -1,11 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
+    border: 1px red solid;
 }
 
-html
-{
-    margin-left: 250px;
+section {
+    margin: 0 auto;
+    ;
 }
 
 .header {
@@ -16,7 +17,7 @@ html
     font-weight: 500;
     line-height: 30px;
     color: black;
-    padding: 26px 98px 98px 109px;
+    margin: 26px 98px 0px 109px;
 }
 
 .themebau {
@@ -30,7 +31,6 @@ html
 
 .nav {
     display: flex;
-    margin-right: 60px;
 }
 
 .home,
@@ -54,7 +54,7 @@ html
 }
 
 .themebau {
-    margin: 0px 594px 8px 0px;
+    margin: 0px 479px 8px 0px;
 
 }
 
@@ -89,7 +89,7 @@ html
 .digitalstud {
     width: 610px;
     height: 160px;
-    padding: 10px 378px 65px 378px;
+    margin: 10px 378px 65px 371px;
 }
 
 .workbutton {
@@ -123,7 +123,6 @@ html
     width: 1170px;
     height: 1.2px;
     color: #0E0E0E;
-    margin: 0px 98px 29px 98px;
     background: #0E0E0E;
 
 }
@@ -141,7 +140,10 @@ html
     line-height: 26px;
     display: flex;
     gap: 30px;
-    margin: 29px 410px 91px 409px
+    margin: 0 auto;
+    margin-top: 29px;
+    margin-bottom: 91px;
+    width: fit-content;
 }
 
 .creativebranding {
@@ -183,11 +185,18 @@ html
     font-weight: 500;
     word-wrap: break-word;
     justify-content: center;
-    margin: 100px 628px 154px 628px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 154px;
+}
+
+.container3 {
+    width: 648px;
+    height: 192px;
 }
 
 .connect {
-    margin: 0px 358px 50px 358px;
+    margin: 0px 358px 50px 0px;
     width: 648px;
     height: 88px;
 }
@@ -230,7 +239,7 @@ html
     width: 1366px;
     height: 642px;
     background: #0E0E0E;
-    margin-top: 160px;
+    margin: 0px auto;
     display: flex;
 }
 
@@ -339,4 +348,39 @@ input:focus {
     border-radius: 50%;
     width: 6px;
     height: 6px;
+}
+
+.links {
+    width: 526px;
+    height: 120px;
+    display: flex;
+    margin-left: 101px;
+    margin-top: 131px;
+}
+
+.abt {
+    width: 76px;
+    height: 120px;
+    margin-right: 124px;
+}
+
+.faq {
+    width: 112px;
+    height: 120px;
+    margin-right: 88px;
+}
+
+.rights {
+    width: 126px;
+    height: 90px;
+}
+.manyphotos {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.watchdesign,.happymoments,.mobileapp,.badesign,.packagedesign,.videotut,.indentity,.breakfast
+{
+    height:fit-content;
 }
