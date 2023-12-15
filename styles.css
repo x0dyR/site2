@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: 1px red solid;
 }
 
 section {
@@ -89,7 +88,9 @@ section {
 .digitalstud {
     width: 610px;
     height: 160px;
-    margin: 10px 378px 65px 371px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 65px;
 }
 
 .workbutton {
@@ -98,7 +99,7 @@ section {
     height: 54px;
     background: black;
     display: flex;
-    margin-left: 598px;
+    margin: 0 auto;
 }
 
 .textbutton {
@@ -177,7 +178,7 @@ section {
     width: 110px;
     height: 110px;
     background-repeat: no-repeat;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     color: #0E0E0E;
     font-size: 15px;
@@ -193,6 +194,7 @@ section {
 .container3 {
     width: 648px;
     height: 192px;
+    margin-bottom: 160px;
 }
 
 .connect {
@@ -374,13 +376,31 @@ input:focus {
     width: 126px;
     height: 90px;
 }
+
 .manyphotos {
     display: grid;
     grid-template-columns: 370px 370px 370px;
     column-gap: 30px;
     row-gap: 30px;
 }
-.watchdesign,.happymoments,.mobileapp,.badesign,.packagedesign,.videotut,.indentity,.breakfast
-{
-    height:fit-content;
+
+.watchdesign,
+.happymoments,
+.mobileapp,
+.badesign,
+.packagedesign,
+.videotut,
+.indentity,
+.breakfast {
+    height: fit-content;
+}
+@media screen and (max-width: 1200px) {
+    .header
+    {
+        width: 800px;
+    }
+    section
+    {
+        width: 800px;
+    }
 }
